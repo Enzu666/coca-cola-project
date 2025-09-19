@@ -44,7 +44,7 @@ main{
   color: #FFF;
   font-size: 2.25rem;
   width: 212px;
-  transform: translateX(-100%);
+  transform: translateX(-120%);
   text-align: end;
   margin-right: 24px;
 }
@@ -59,4 +59,27 @@ footer{
   justify-content: flex-end;
   align-items: flex-start;
   margin-right: 75px;
+}
+@media (max-width:768px){
+  header nav{ 
+      margin-left:25px; 
+    }
+  main{ 
+      align-items:flex-end; 
+    }
+  .content-text{ 
+      transform: translateX(0); 
+      top:80px; 
+      font-size:1rem; 
+      width:100px; 
+      text-align:center; 
+      margin:0; 
+    }
+  .content-image{ 
+      height:70vh; 
+    }
+  footer{ 
+      height:60px; 
+      margin-right:25px; 
+    }
 }
